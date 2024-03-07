@@ -1,0 +1,57 @@
+.Content {
+  height: 100vh;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Form {
+  padding: 20px;
+  width: 500px;
+  margin-bottom: 120px;
+}
+.head {
+  color: #0056b3;
+  align-items: center;
+  justify-content: center;
+  margin-left: 110px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.Password {
+  font-size: 20px;
+  font-weight: 200;
+  justify-content: space-between;
+  padding: 40px;
+}
+.new {
+  padding: 10px;
+}
+.button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+}
+.Remembers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+  width: 50vh;
+  height: 10vh;
+}
+
+.Reset:hover {
+  color: #0056b3;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.password-reset-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.Pass {
+  padding: 5px;
+}

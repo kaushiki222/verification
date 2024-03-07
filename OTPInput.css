@@ -1,0 +1,89 @@
+.contents {
+  height: 100vh;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forms {
+  padding: 30px;
+  margin-bottom: 120px;
+  height: 400px;
+}
+.verification {
+  font-family: Merriweather Sans;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: left;
+  color: #0047ab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Enter-code {
+  font-family: Roboto Flex;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 20px;
+}
+.type-in {
+  display: flex;
+}
+.codes {
+  padding: 10px 20px;
+  background-color: #0047ab;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  width: 296px;
+  height: 24px;
+  margin-top: 20px;
+  margin-left: 130px;
+}
+.codes:hover {
+  background-color: #0056b3;
+}
+.remembers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+  width: 50vh;
+  height: 10vh;
+  margin-left: 110px;
+}
+
+.passwords:hover {
+  color: #0056b3;
+  cursor: pointer;
+}
+.otp-input {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 19px;
+}
+.otp-input input {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 100;
+}
+.otp-input input:focus {
+  outline: none;
+  border-color: #007bff;
+  cursor: pointer;
+}
+.Reset:hover {
+  color: #0056b3;
+  cursor: pointer;
+  margin-left: 10px;
+}
